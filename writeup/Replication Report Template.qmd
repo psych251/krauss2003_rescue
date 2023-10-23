@@ -112,10 +112,10 @@ However, for @krauss2003, more important than simply getting participants to swi
 A participant gives a correct justification for their answer to the Monty Hall problem when they both provide the correct probability of switching doors (2/3) and this probability assignment was, in the words of the original authors, 'comprehensibly derived' (p. 11).
 > The criteria for correct justification were strict: We counted a response as a correct justification only if the 2/3 probability of winning was both reported and comprehensibly derived. This could, for instance, be fulfilled by applying one of the algorithms reported above (Equation 1, Table 1, or Figure 1), or by any other procedure indicating that the participant had fully understood the underlying mathematical structure of the problem. The right intuition category contained all the switchers who believed that switching was superior to staying but failed to provide proof for this.5 Finally, a participant was assigned to the “random switch” category if she thought it made no difference if she switched or stayed. (p. 11)
 
-![Equation 1 in the original study](img/eq_1_bayes_theorem.png)
-![Table 1 in the original study](img/table_1_mental_models.png)
+![Equation 1 in the original study](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/eq_1_bayes_theorem.png?raw=true)
+![Table 1 in the original study](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/table_1_mental_models.png?raw=true)
 
-![Figure 1 in the original study](img/fig_1_natural_frequencies.png)
+![Figure 1 in the original study](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/fig_1_natural_frequencies.png?raw=true)
 
 As in Wilcox's replication study, the justifications that participants provide will be extracted to a separate CSV file (with links to photographs of the handwritten responses, if applicable) where justifications will be coded as correct or incorrect, while being blind to which justifications are from the experimental or control conditions. The coding will then be transferred back to the main analysis dataframe.
 
@@ -217,7 +217,7 @@ Add open-ended commentary (if any) reflecting (a) insights from follow-up explor
 
 ### Original Instructions
 
-![Control Group Instructions](img/control_group_instructions.png)
+![Control Group Instructions](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/control_group_instructions.png?raw=true)
 
 
 ### Modified Instructions
@@ -228,7 +228,8 @@ The following instructions were used in the replication attempt: (Will be taken 
 
 ### Original Instructions
 
-![Experimental Group Instructions](img/experimental_group_instructions.png)
+![Experimental Group Instructions](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/experimental_group_instructions.png?raw=true)
+
 ### Modified Instructions
 
 The following instructions were used in the replication attempt: (Will be taken directly from Qualtrics survey once this survey is completed.)
