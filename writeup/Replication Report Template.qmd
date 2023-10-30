@@ -13,6 +13,7 @@ format:
 ## Links
 
 * GitHub repository: <https://github.com/psych251/krauss2003_rescue>
+* Qualtrics questionnaire: <https://stanforduniversity.qualtrics.com/jfe/form/SV_0Cen2dll1P1xFKC>
 * Original Krauss & Wang (2003) paper: <https://github.com/psych251/krauss2003_rescue/blob/main/original_paper/krauss2003.pdf>
 * Prior replication attempt by John Wilcox: <https://rpubs.com/JohnEpisteme/433652>
 
