@@ -193,7 +193,7 @@ You can comment this section out prior to final report with data collection.
 
 Data preparation following the analysis plan.
 	
-```{r echo=TRUE}
+```{r echo=FALSE}
 ### load packages
 
 library("tidyverse")
@@ -237,7 +237,7 @@ How did people perform on any quality control checks or positive and negative co
 
 ### Confirmatory analysis
 
-```{r echo=TRUE}
+```{r echo=FALSE}
 # generate contingency table that displays how many participants in the control and experimental condition provided a correct justification
 
 table <- with(
@@ -330,7 +330,11 @@ Add open-ended commentary (if any) reflecting (a) insights from follow-up explor
 
 The following instructions were used in the replication attempt:
 
+![Before you continue screen](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/beforeyoucontinuescreen.png?raw=true)
 
+![Control group instructions](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/controlcondition.png?raw=true)
+
+![Upload explanation and post-test](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/uploadandposttest.png?raw=true)
 
 ## Appendix B: Experimental Group Instructions
 
@@ -340,4 +344,12 @@ The following instructions were used in the replication attempt:
 
 ### Modified Instructions
 
-The following instructions were used in the replication attempt: (Will be taken directly from Qualtrics survey once this survey is completed.)
+The following instructions were used in the replication attempt:
+
+![Before you continue screen](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/beforeyoucontinuescreen.png?raw=true)
+
+![Experimental group instructions 1](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/experimentalcondition1.png?raw=true)
+
+![Experimental group instructions 2](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/experimentalcondition2.png?raw=true)
+
+![Upload explanation and post-test](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/uploadandposttest.png?raw=true)
