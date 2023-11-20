@@ -8,6 +8,10 @@ date: "2023-10-29"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Link to paradigm
+
+Qualtrics questionnaire: <https://stanforduniversity.qualtrics.com/jfe/form/SV_0Cen2dll1P1xFKC>
+
 # Packages
 
 ```{r, echo = TRUE}
