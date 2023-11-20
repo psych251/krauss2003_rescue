@@ -202,7 +202,7 @@ library("plyr")
 
 ### load data from Pilot A
 
-data <- read_survey("data.csv")
+data <- read_survey("../data/pilotA.csv")
 
 ### tidy data
 
@@ -229,6 +229,12 @@ relevant_tidy_data = tidy_data |>
   filter(already_knew_answer == F) |> 
   filter(own_answer == T) |> 
   select(control, switch)
+
+# let's pretend we've coded the justifications (we'll generate values randomly for pilot A)
+
+relevant_tidy_data = relevant_tidy_data |> 
+  mutate(correct_justification = case_when(switch == TRUE ~ sample(c(TRUE, FALSE), size = 1, replace = TRUE),
+         TRUE ~ FALSE))
 ```
 
 ### Results of control measures
