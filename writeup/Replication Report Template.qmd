@@ -96,6 +96,8 @@ The original study featured three groups of participants recruited from various 
 
 Proposed sample size: 100 participants for the main experiment, which coincides approximately with the original sample size (101), as well as with 80% power for attenuated effect size (106). Because some potential participants will already be familiar with the Monty Hall problem, more participants will be invited to the pre-screening. Given that the pre-screening takes less than a minute and is inexpensive compared to the main experiment, we propose that the study be capped at 150 participants overall.
 
+**Stopping criterion:** 100 participants have completed the main experiment. To that end, we will initially recruit 150 participants for the pre-screen, and if fewer than 100 pass, we will pre-screen more until 100 participants have completed the main experiments.
+
 <!-- [TO DO] Take into account: Small compensation for pre-screening survey (>1 min), compensation for main experiment (15 mins), how many participants I need for main experiment, how many participants I expect to be familiar with Monty Hall (I expect around half of participants to be already familiar with experiment -- don't have any information on this), Prolific takes 33% fee -->
 
 ### Materials
@@ -141,8 +143,9 @@ Then, we will proceed as in the original study:
 The coding criteria for determining whether to assign participants to group (a) or group (b) are outlined below.
 
 The original study reports various statistical measures (the main statistical measure is highlighted in bold):
+
 * A Pearson's chi-square test was used to analyze the rate of switch choices (i.e., correct answers).
-* A *Pairwise Fisher exact probability test* for analyzing data on the rate of correct justifications for switch choices (i.e., correct answers). This was done due to the small number of correct responses in the control condition (3).
+* A **Pairwise Fisher exact probability test** for analyzing data on the rate of correct justifications for switch choices (i.e., correct answers and correct justifications). This was done due to the small number (3) of correct responses in the control condition.
 * Cohen's effect size h was used to analyze the difference of proportions.
 
 For @krauss2003, more important than simply getting participants to switch rather than stay is getting them to provide correct justifications for their decision to switch:
@@ -193,21 +196,25 @@ You can comment this section out prior to final report with data collection.
 
 Data preparation following the analysis plan.
 	
-```{r echo=FALSE}
+```{r echo=TRUE}
 ### load packages
 
 library("tidyverse")
 library("qualtRics")
 library("plyr")
+library("dplyr")
 
-### load data from Pilot A
+# Set working directory
+setwd("/Users/bendix/Desktop/krauss2003_rescue")
+getwd()
 
-data <- read_survey("../data/pilotA.csv")
+### load data from Pilot B
+data <- read_survey("./data/pilotBdata_notanyonymized.csv")
 
-### tidy data
+### anonymize and tidy data
 
 tidy_data = data |>
-  select(Finished, "Duration (in seconds)", Q7, Q9, Q10, Q20, Q14, Q15, Q43) |> 
+  select("Prolific ID question", Finished, "Duration (in seconds)", Q7, Q9, Q10, Q20, Q14, Q15, Q43) |> 
   unite(switch, c(Q10, Q20), na.rm = T) |>
   mutate(switch = case_when(switch == 'switch to door 2' | switch == 'switch to the last remaining door' ~ TRUE,
                          TRUE ~ FALSE)) |> 
@@ -221,20 +228,28 @@ tidy_data = data |>
   mutate(control = case_when(is.na(wins_cases_if_stays) ~ TRUE,
                              TRUE ~ FALSE))
 
-# keep only rows corresponding to participants who finished the survey, weren't familiar with the scenario, and completed the questionnaire on their own
+# Export anonymized, tidy data
+
+# write.csv(tidy_data, "../data/pilotB_tidy.csv")
+
+# keep only rows corresponding to participants who finished the survey, took more than 60 seconds, weren't familiar with the scenario, and completed the questionnaire on their own
 
 relevant_tidy_data = tidy_data |>
+  filter("Duration (in seconds)" >= 60) |> 
   filter(Finished == T) |> 
   filter(already_familiar == F) |> 
   filter(already_knew_answer == F) |> 
   filter(own_answer == T) |> 
-  select(control, switch)
+  select("Prolific ID question", control, switch)
 
-# let's pretend we've coded the justifications (we'll generate values randomly for pilot A)
+# create a new column to record which participants provided correct justifications
 
 relevant_tidy_data = relevant_tidy_data |> 
-  mutate(correct_justification = case_when(switch == TRUE ~ sample(c(TRUE, FALSE), size = 1, replace = TRUE),
-         TRUE ~ FALSE))
+  mutate(correct_justification = "")
+
+# export relevant_tidy_data to csv for coding
+
+# write.csv(relevant_tidy_data, "../data/pilotB_to_be_coded.csv")
 ```
 
 ### Results of control measures
@@ -243,7 +258,11 @@ How did people perform on any quality control checks or positive and negative co
 
 ### Confirmatory analysis
 
-```{r echo=FALSE}
+```{r echo=TRUE}
+# after coding answers, load file
+
+relevant_tidy_data <- read_csv("../data/pilotB_coded.csv")
+
 # generate contingency table that displays how many participants in the control and experimental condition provided a correct justification
 
 table <- with(
@@ -285,7 +304,7 @@ plot <- ggplot(data=proportions, aes(x=Condition, y=(Proportion)*100)) +
   geom_bar(stat="identity") +
   scale_x_discrete(breaks=c("Control", "Experimental"),
                    labels=c("Control", "Experimental")) + ylim(0, 100) +
-  labs(title = "Pilot A results", x = "Condition", y = "Percentage correct (%)")
+  labs(title = "Pilot B results", x = "Condition", y = "Percentage correct (%)")
 
 plot
 

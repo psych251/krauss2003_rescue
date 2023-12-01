@@ -1,0 +1,5 @@
+,Finished,Duration (in seconds),wins_cases_if_stays,wins_cases_if_switches,switch,already_familiar,already_knew_answer,own_answer,control
+1,TRUE,421,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
+2,TRUE,863,1.5,1.5,FALSE,FALSE,FALSE,TRUE,FALSE
+3,TRUE,2308,1,2,TRUE,FALSE,FALSE,TRUE,FALSE
+4,TRUE,773,NA,NA,TRUE,TRUE,TRUE,TRUE,TRUE

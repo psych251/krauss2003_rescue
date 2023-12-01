@@ -1,0 +1,4 @@
+,control,switch,correct_justification
+1,TRUE,FALSE,FALSE
+2,FALSE,FALSE,FALSE
+3,FALSE,TRUE,TRUE
