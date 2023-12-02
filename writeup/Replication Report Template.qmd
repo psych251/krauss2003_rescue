@@ -1,0 +1,357 @@
+---
+title: "Replication of Study 1 by Krauss & Wang (2003, Journal of Experimental Psychology)"
+author: "Bendix Kemmann (kemmann@stanford.edu)"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+format:
+  html:
+    toc: true
+    toc_depth: 3
+---
+
+<!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
+
+## Links
+
+* GitHub repository: <https://github.com/psych251/krauss2003_rescue>
+* Qualtrics questionnaire (pre-screening): <https://stanforduniversity.qualtrics.com/jfe/form/SV_8B15MeMeEMk1zHE>
+* Qualtrics questionnaire (experiment): <https://stanforduniversity.qualtrics.com/jfe/form/SV_0Cen2dll1P1xFKC>
+* Original Krauss & Wang (2003) paper: <https://github.com/psych251/krauss2003_rescue/blob/main/original_paper/krauss2003.pdf>
+* Prior replication attempt by John Wilcox: <https://rpubs.com/JohnEpisteme/433652>
+
+## Introduction
+
+<!-- [No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.   -->
+
+This is an attempt to replicate Experiment 1 of @krauss2003. In this experiment, @krauss2003 investigated how different representations of the famous Monty Hall problem affect the rate of correct answers as well as the rate of correct justifications given for those answers. @krauss2003 predicted that a presentation of the problem that involves four features intended to elicit a correct intuitive solution to the problem would be more likely to lead to correct responses than a control version that lacked these features. The four features, which @krauss2003 call 'psychological elements', were: (1) prompting the participants to adopt the fully informed perspective of Monty Hall rather than the incomplete perspective of the contestant, (2) prompting the participants to ignore the specifics of which particular door is opened by specifying merely that some door was opened and revealed a goat, (3) prompting participants to construct 'mental models' of the scenario and thereby to consider all possible arrangements of where the prize might be, and (4) prompting participants to construe the problem in terms of natural frequencies rather than probabilities. In the original study, there were 67 participants in the control group and 34 participants in the experimental condition. @krauss2003 reported that 38% of the experimental group provided correct justifications for their solutions to the Monty Hall problem. In contrast, only 3% of participants in the control group provided correct justifications. @krauss2003 conclude that
+> [t]he rate of correct justifications in the guided intuition group was reliably greater than that in the control condition ($p=.0001$, one-tailed; $h=.98$) [...] Thus, the guided intuition manipulation significantly improved understanding of the rationale for switching yielding large effect sizes. (p. 14)
+
+In this replication attempt, each participant will be presented with a questionnaire that contains one of two versions of the Monty Hall problem: a) a control version (Figure 3 in the original paper), and b) a 'Guided intuition' version in which all four features are added to the control version (Figure 4 in the original paper).^[For simplicity, a second experimental condition involving the 'One Door' version of the problem will be left out in this replication study. See Appendix C in the original paper for details.] That is, participants in the control condition complete questions in response to a standard version of the Monty Hall problem. By contrast, participants in the experimental condition complete questions about the 'Guided intuition version' of the Monty Hall problem. As in the original study, after excluding participants that have encountered the Monty Hall problem previously, participants' responses will be classified into 'stayers' (incorrect answer) and 'switchers' (correct answer), and the switchers' justifications for their answer will be classified into one of three groups, depending on whether the experimenter believes the participant exhibited full insight into the mathematical structure of the problem, had the right intuition but couldn't provide a correct proof, or switched randomly.
+
+## Summary of prior replication attempt by John Wilcox
+
+<!-- Based on the prior write-up, describe any differences between the original and 1st replication in terms of methods, sample, sample size, and analysis. Note any potential problems such as exclusion rates, noisy data, or issues with analysis.  -->
+
+Wilcox's replication attempt was conducted via an online Qualtrics questionnaire, rather than in person as the original study had been. Participants were recruited via Amazon Mechanical Turk. While the original study featured participants from various German universities, Wilcox included participants who had at least graduated from high school. Wilcox also left out the 'One-Door' experimental condition in which only one feature, the 'less-is-more' manipulation, was added (Appendix C in the original paper). As some participants may have prior familiarity with the Monty Hall problem, Wilcox omitted such participants from the study using pre-test and post-test approaches. In the pre-test, participants were asked to indicate whether they were familiar with the Monty Hall problem. The original study didn't include such a pre-test, but it included the same post-test. Wilcox also modified the instructions in two minor ways. First, he omitted the statement 'You may use sketches, etc., to explain your answer' as the online testing environment would not easily provide for that capacity. Secondly, he included a simple attention check in which participants were asked how many doors were mentioned on a previous page in the questionnaire. His study involved 42 participants, 19 of which both passed the attention check and indicated that they were not already familiar with the problem. The resulting data were then unevenly distributed between the control and experimental conditions: the control condition had 8 correct responses and the experimental condition had 11. Consequently, the actual data collection featured a small sample size and an uneven distribution of responses between conditions. In Wilcox's words, 'The replication sample was small and underpowered.' Furthermore, in Wilcox's study, none of the respondents in the experimental condition nor the control condition provided correct justifications.
+
+## Methods
+
+Participants will be recruited via Prolific.
+
+### A priori power analysis
+
+<!-- Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size. -->
+
+<!-- How much power does your planned sample have for original effect? For an attenuated effect that is half the size of the original?  -->
+
+<!-- (If power analysis is not possible or precise, discuss more fully how you determined a sample size that would be sufficient for rescue.) -->
+
+#### for original effect size
+
+Using Fisher's exact test, for two groups with proportions of 3% and 38%...
+
+* ...38 respondents are needed to achieve 80% power, with respondents evenly allocated between groups
+* ...46 respondents are needed to achieve 90% power, with respondents evenly allocated between groups
+* ...58 respondents are needed to achieve 95% power, with respondents evenly allocated between groups
+
+#### for attenuated effect size
+
+Using Fisher's exact test, for two groups with proportions of 3% and 19%...
+
+* ...106 respondents are needed to achieve 80% power, with respondents evenly allocated between groups
+* ...134 respondents are needed to achieve 90% power, with respondents evenly allocated between groups
+* ...168 respondents are needed to achieve 95% power, with respondents evenly allocated between groups
+
+### Planned Sample
+
+<!-- Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any. -->
+
+#### Original sample
+
+The original study featured three groups of participants recruited from various German universities. There were 67 participants in the control group and 34 participants in the experimental condition.^[For simplicity, a second experimental condition involving the 'One Door' version of the problem will be left out in this replication study. See Appendix C in the original paper for details.]
+
+#### Eligibility criteria
+
+*Educational background.* In this replication study, for simplicity, participants will not be pre-selected based on their educational credentials. (While John Wilcox initially selected only participants who had at least graduated from high school, he later abandoned his pre-screening survey due to the low number of participants who had completed it.) Participants' education level does not appear to be an important characteristic of the sample, and @krauss2003 appear to have selected university students simply for convenience. We're not trying to establish correlations between participants' answers and their education levels.
+
+*Pre-screening.* Because the hypothesis depends solely on the switch choices and justifications given by participants who aren't already familiar with the Monty Hall problem, and to minimize costs, we will evaluate participants' prior familiarity with the Monty Hall problem by asking them to complete a short pre-screening survey (<https://stanforduniversity.qualtrics.com/jfe/form/SV_8B15MeMeEMk1zHE>) which asks them about their prior familiarity with five games and reasoning problems, one of which is the Monty Hall problem. Every participant who answers the 'Are you familiar with the Monty Hall problem?' question with 'no' will be invited to the experiment. How the remaining questions are answered does not affect eligibility for participating in the experiment.
+
+#### Planned sample size
+
+Proposed sample size: 100 participants for the main experiment, which coincides approximately with the original sample size (101), as well as with 80% power for attenuated effect size (106). Because some potential participants will already be familiar with the Monty Hall problem, more participants will be invited to the pre-screening. Given that the pre-screening takes less than a minute and is inexpensive compared to the main experiment, we propose that the study be capped at 150 participants overall.
+
+**Stopping criterion:** 100 participants have completed the main experiment. To that end, we will initially recruit 150 participants for the pre-screen, and if fewer than 100 pass, we will pre-screen more until 100 participants have completed the main experiments.
+
+### Materials
+
+<!-- All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article. -->
+
+The original and modified instructions for the control group are reproduced in Appendix A. The original and modified instructions for the experimental condition are reproduced in Appendix B.
+
+The following, minor modifications were be made to the materials:
+
+* *Reskin.* The name 'Monty Hall' was changed to a made-up name, 'Maeve'; the reward was changed from a car to a suitcase of money; and the doors with goats behind them were changed to doors with nothing behind them. This doesn't change the structure of the problem, but might make it slightly harder for participants to find other presentations of the problem online.
+* The illustration used by the original study was modified stylistically in minor ways for clarity and to improve the participants' user experience. However, the structural aspects of the illustration (namely, the presence of 3 doors, the 1st door being highlighted, and the relative positions of the contestant and the host indicated) have all remained unchanged. We hope that the revised illustration will be slightly easier to interpret, but given that it doesn't alter the structure of the reasoning problem, we don't expect it to have a significant effect on task performance.
+* The (translation of the) original instructions, as well as those used by Wilcox, included the statement 'Please also tell us in writing what went on in your head when you made your decision.' This wording is imprecise: Are participants meant to justify their decision or rather to introspectively report on 'what went on in their heads' as they thought through the problem? Wilcox, too, noted that most of the participants in his replication study provided very short and superficial answers.
+> At first, it may seem that the MTurk workers could be less competent or attentive since their “justifications” are often terse and fail to provide support for their decision to switch. For example, one person’s “justification” for switching was merely: “I was thinking of all of the different aspects of the game”. This is a far cry from specifying what the probability of switching is or why that probability is what it is. However, it may not have been clear to the participants that they needed to fully explain and justify their reasoning, especially since the task merely asks them to explain in no particular level of detail “what went on” in their heed when making the decision. Consequently, it is unclear that the MTurk workers were actually aiming to articulate justifications or that they were less competent or attentive than the original study’s participants.
+As a result, the wording was changed to 'Please also tell us in writing the reasoning you used to arrive at your decision. Please be as detailed as possible.' We don't know the precise wording used in the original, German study, as this was not reported. However, given that the experimenters expected participants to explain their reasoning, we believe the revised wording is more in line with their intentions.
+* Wilcox omitted the statement that 'You may use sketches, etc., to explain your answer' as the online testing environment does not easily  provide for that capacity. However, because the ability to make sketches as well as to write formulas may be important for some participants to arrive at, and justify, their answers, an instruction will be added that draws participants' attention to the fact that they may create notes, sketches, and formulas on paper. Participants may then upload a photograph of their handwritten work if they choose to. This ensures that the conditions of the experiment are closer to the one used in the original study where participants produced handwritten answers. These instructions will also be included in advance in the description of the study on Prolific. Requiring the uploading of handwritten justifications may deter some potential participants from participating in the study due to the extra steps and materials involved, and may also inadvertently increase the representation of particularly conscientious participants among the sample. However, many participants are likely to have access to paper and pencil, as well as a smartphone or laptop camera. Moreover, completing the task successfully does require some conscientiousness on the part of the participants and, considering the low quality of responses obtained in the previous replication study, we argue that it is worth trying a setup that more closely resembles the original experiment. Apart from that, given that we are not comparing the proportion of participants who successfully complete the task versus those that don't, the self-selection of more conscientious participants should not be a major distorting effect as long as the conscientiousness of participants is comparable across the experimental and control conditions.
+
+### Procedure	
+
+<!-- Can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article. -->
+
+Participants will be randomly assigned to the control and to the experimental condition. They will be asked to follow the instructions as outlined in Appendices A and B.
+
+### Controls
+
+<!-- What attention checks, positive or negative controls, or other quality control measures are you adding so that a (positive or negative) result will be more interpretable? -->
+
+While Wilcox used a very simple attention check, this study does not use any attention checks. Instead, a passive measure of compliance will be used. As a very conservative measure, we expect that participants will require at least one minute to read the instructions and respond to them. Consequently, we exclude participants who complete the questionnaire in less than that time. Furthermore, because participants are required to upload written justifications which are then evaluated by a coder for correctness, an extra explicit attention check at best appears redundant, and at worst leads to participants adopting an adversarial stance towards the experimenter. If a participant doesn't pay attention, they are highly unlikely to upload a correct explanation of their reasoning, and so they will be excluded regardless from the data.
+
+### Analysis Plan
+
+<!-- Can also quote directly, though it is less often spelled out effectively for an analysis strategy section.  The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible. -->
+
+Respondents who indicate prior familiarity or who have completed the questionnaire in a minute or less will be excluded from the analysis.
+
+Then, we will proceed as in the original study:
+> To classify our participants’ justifications, we first divided participants into “stayers” and “switchers.” We then further classified the switchers into the following three groups according to their justifications for switching: (a) participants who gave correct justifications and exhibited full insight into the mathematical structure; (b) participants who had the right intuition but could not provide a mathematically correct proof; and (c) participants who switched randomly, meaning that they regarded switching and staying as equally good alternatives. (p. 11)
+
+The coding criteria for determining whether to assign participants to group (a) or group (b) are outlined below.
+
+The original study reports various statistical measures (the main statistical measure is highlighted in bold):
+
+* A Pearson's chi-square test was used to analyze the rate of switch choices (i.e., correct answers).
+* A **Pairwise Fisher exact probability test** for analyzing data on the rate of correct justifications for switch choices (i.e., correct answers and correct justifications). This was done due to the small number (3) of correct responses in the control condition.
+* Cohen's effect size h was used to analyze the difference of proportions.
+
+For @krauss2003, more important than simply getting participants to switch rather than stay is getting them to provide correct justifications for their decision to switch:
+> Data on the rate of correct justifications for switch choices were analyzed with pairwise Fisher exact probability tests (due to the small number of correct responses in the control and one-door conditions), accompanied by Cohen’s effect size h for the difference of proportions (Cohen, 1988, pp. 179 213). (p. 12)
+
+#### Coding criteria
+
+A participant gives a correct justification for their answer to the Monty Hall problem when they both provide the correct probability of switching doors (2/3) and this probability assignment was, in the words of the original authors, 'comprehensibly derived' (p. 11).
+> The criteria for correct justification were strict: We counted a response as a correct justification only if the 2/3 probability of winning was both reported and comprehensibly derived. This could, for instance, be fulfilled by applying one of the algorithms reported above (Equation 1, Table 1, or Figure 1), or by any other procedure indicating that the participant had fully understood the underlying mathematical structure of the problem. The right intuition category contained all the switchers who believed that switching was superior to staying but failed to provide proof for this.5 Finally, a participant was assigned to the “random switch” category if she thought it made no difference if she switched or stayed. (p. 11)
+
+![Equation 1 in the original study](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/eq_1_bayes_theorem.png?raw=true)
+![Table 1 in the original study](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/table_1_mental_models.png?raw=true)
+
+![Figure 1 in the original study](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/fig_1_natural_frequencies.png?raw=true)
+
+As in Wilcox's replication study, the justifications that participants provide will be extracted to a separate CSV file (with links to photographs of the handwritten responses, if applicable) where justifications will be coded as correct or incorrect, while being blind to which justifications are from the experimental or control conditions. The coding will then be transferred back to the main analysis dataframe.
+
+Following the original study's protocol, the difference between such proportions will be measured using Cohen's h and statistical significance will be calculated using Fisher's exact test. Cohen's h is then the key statistic of interest for this replication.
+
+<!-- **Clarify key analysis of interest here**  You can also pre-specify additional analyses you plan to do. -->
+
+### Differences from Original Study and 1st replication
+
+<!-- Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect. -->
+
+* Unlike the original study, and like Wilcox's replication attempt, the present study will present the instructions in the form of an online questionnaire rather than in person. The change in experimental setting may have the result that respondents are less likely to pay as much attention to the reasoning task as they would have in an in-person environment in which an experimenter is present. Ultimately, we don't know how much of a difference this makes. However, by keeping track of response times and evaluating their written justifications, we might at least be able to estimate whether a response was thorough or rushed. Another possible benefit of administering the survey online is that participants may take it in a less stress-inducing environment, which may improve their responses.
+* While Wilcox included an explicit attention check in terms of a simple question ('In the earlier scenario, how many doors were there in total (including either opened or unopened doors)?'), this study will use a passive compliance check instead.
+* Unlike the original study, the present study will use a pre-test to screen out participants who are already familiar with the Monty Hall problem. This is done to stay within the budget. One downside is that the pre-test may dissuade participants from working on the task (as Wilcox himself acknowledged in the Methods Addendum in his report).
+* The questionnaire that Wilcox used divided the task over two separate pages. In particular, the text box recorded participant's justification for their answer was presented on a separate page from the scenario. By contrast, the present study will present all questions on one page (except for the post-test questions that inquire into familiarity with the Monty Hall problem), so that participants don't have to keep the scenario/illustration in memory or switch back and forth. This experience is closer to the original study, where participants were given a one-page worksheet.
+* In the original study, participants were allowed to visually represent their justifications for their responses in various formats, such as drawings of doors. For technical reasons, Wilcox's study didn't enable participants to draw such pictures. However, the ability to make sketches may be an important part of participants' reasoning. For example, considering the various possibilities (as in Table 1 or Figure 1 above) may be an important and fruitful step in solving the problem (and, moreover, the authors of the original stude intended the experimental condition to encourage such solution attempts). However, it is very demanding if not impossible to keep all possibilities in short-term memory. Similarly, some participants may choose to write formulas in solving the problem. This is difficult to do in a plain-text text box. In other words, it is possible that the Monty Hall problem can't easily be solved without the use of external tools such as pen and paper. By limiting the ability for participants to take notes, Wilcox's replication study may inadvertently have interfered with participants' reasoning in a non-trivial way that affects the results. Therefore, participants will be allowed to create drawings on paper and to upload a photograph of their work.
+* A different coder (myself) will code the justifications as correct or incorrect according to the criteria specified in the original paper. The results could be influenced by imperfect inter-coder reliability.
+
+### Methods Addendum (Post Data Collection)
+
+You can comment this section out prior to final report with data collection.
+
+#### Actual Sample
+  Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+
+#### Differences from pre-data collection methods plan
+  Any differences from what was described as the original plan, or “none”.
+
+
+## Results
+
+
+### Data preparation
+
+Data preparation following the analysis plan.
+	
+```{r echo=TRUE}
+### load packages
+
+library("tidyverse")
+library("qualtRics")
+library("plyr")
+library("dplyr")
+
+# Set working directory
+setwd("/Users/bendix/Desktop/krauss2003_rescue")
+getwd()
+
+### load data from Pilot B
+data <- read_survey("./data/pilotBdata_notanyonymized.csv")
+
+### anonymize and tidy data
+
+tidy_data = data |>
+  select("Prolific ID question", Finished, "Duration (in seconds)", Q7, Q9, Q10, Q20, Q14, Q15, Q43) |> 
+  unite(switch, c(Q10, Q20), na.rm = T) |>
+  mutate(switch = case_when(switch == 'switch to door 2' | switch == 'switch to the last remaining door' ~ TRUE,
+                         TRUE ~ FALSE)) |> 
+  dplyr::rename(wins_cases_if_stays = Q7, wins_cases_if_switches = Q9, already_familiar = Q14, already_knew_answer = Q15, own_answer = Q43) |> 
+  mutate(already_familiar = case_when(already_familiar == 'I was familiar with this game' ~ TRUE,
+                                      TRUE ~ FALSE)) |> 
+  mutate(already_knew_answer = case_when(already_knew_answer == 'I already knew what the correct answer should be' ~ TRUE,
+                                         TRUE ~ FALSE)) |> 
+  mutate(own_answer = case_when(own_answer == 'I arrived at the answer on my own' ~ TRUE,
+                                TRUE ~ FALSE)) |> 
+  mutate(control = case_when(is.na(wins_cases_if_stays) ~ TRUE,
+                             TRUE ~ FALSE))
+
+# Export anonymized, tidy data
+
+# write.csv(tidy_data, "../data/pilotB_tidy.csv")
+
+# keep only rows corresponding to participants who finished the survey, took more than 60 seconds, weren't familiar with the scenario, and completed the questionnaire on their own
+
+relevant_tidy_data = tidy_data |>
+  filter("Duration (in seconds)" >= 60) |> 
+  filter(Finished == T) |> 
+  filter(already_familiar == F) |> 
+  filter(already_knew_answer == F) |> 
+  filter(own_answer == T) |> 
+  select("Prolific ID question", control, switch)
+
+# create a new column to record which participants provided correct justifications
+
+relevant_tidy_data = relevant_tidy_data |> 
+  mutate(correct_justification = "")
+
+# export relevant_tidy_data to csv for coding
+
+# write.csv(relevant_tidy_data, "../data/pilotB_to_be_coded.csv")
+```
+
+### Results of control measures
+
+How did people perform on any quality control checks or positive and negative controls? 
+
+### Confirmatory analysis
+
+```{r echo=TRUE}
+# after coding answers, load file
+
+relevant_tidy_data <- read_csv("../data/pilotB_coded.csv")
+
+# generate contingency table that displays how many participants in the control and experimental condition provided a correct justification
+
+table <- with(
+  relevant_tidy_data,
+  table(correct_justification, control))
+
+table
+
+proportions = data.frame(Condition=c("Control","Experimental"),
+                                 Proportion=c((table[2, 2]/
+                                                 (table[2, 2] + table[1, 2])), # the first proportion is that of correct justifications given in control condition
+                                              (table[2,1]/
+                                                 (table[2, 1] + table[1, 1])))) # the second proportion is that of correct justifications given in experimental condition
+
+proportions
+
+# perform Cohen's h test
+
+library("pwr")
+
+h <- ES.h(
+  proportions$Proportion[1], # the first proportion is that of correct justifications given in control condition
+  proportions$Proportion[2] # the second proportion is that of correct justifications given in experimental condition
+)
+h
+
+# perform Fisher's exact test
+
+fisher_exact_test <- fisher.test(as.matrix(table))
+fisher_exact_test
+
+# Plots of results
+
+library(ggplot2)
+
+# Plot from replication study
+
+plot <- ggplot(data=proportions, aes(x=Condition, y=(Proportion)*100)) +
+  geom_bar(stat="identity") +
+  scale_x_discrete(breaks=c("Control", "Experimental"),
+                   labels=c("Control", "Experimental")) + ylim(0, 100) +
+  labs(title = "Pilot B results", x = "Condition", y = "Percentage correct (%)")
+
+plot
+
+# Plot from the original study
+
+proportions_original_study = data.frame(Condition=c("Control","Experimental"),
+                       Proportion=c(.3, .38))
+
+plot_original_study <- ggplot(data=proportions_original_study, aes(x=Condition, y=(Proportion)*100)) +
+  geom_bar(stat="identity") +
+  scale_x_discrete(breaks=c("Control","Experimental"),
+                   labels=c("Control", "Experimental")) + ylim(0, 100) +
+  labs(title = "Original study results", x = "Condition", y = "Percentage correct (%)")
+
+plot_original_study
+```
+
+The analyses as specified in the analysis plan.  
+
+*Three-panel graph with original, 1st replication, and your replication is ideal here*
+
+<!-- STOP HERE FOR NOW -->
+
+### Exploratory analyses
+
+Any follow-up analyses desired (not required).  
+
+## Discussion
+
+## Mini meta analysis
+Combining across the original paper, 1st replication, and 2nd replication, what is the aggregate effect size? 
+
+### Summary of Replication Attempt
+
+Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
+
+### Commentary
+
+Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
+
+## Appendix A: Control Group Instructions
+
+### Original Instructions
+
+![Control Group Instructions](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/control_group_instructions.png?raw=true)
+
+### Modified Instructions
+
+The following instructions were used in the replication attempt:
+
+![Before you continue screen](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/beforeyoucontinuescreen.png?raw=true)
+
+![Control group instructions](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/controlcondition.png?raw=true)
+
+![Upload explanation and post-test](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/uploadandposttest.png?raw=true)
+
+## Appendix B: Experimental Group Instructions
+
+### Original Instructions
+
+![Experimental Group Instructions](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/experimental_group_instructions.png?raw=true)
+
+### Modified Instructions
+
+The following instructions were used in the replication attempt:
+
+![Before you continue screen](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/beforeyoucontinuescreen.png?raw=true)
+
+![Experimental group instructions 1](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/experimentalcondition1.png?raw=true)
+
+![Experimental group instructions 2](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/experimentalcondition2.png?raw=true)
+
+![Upload explanation and post-test](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/uploadandposttest.png?raw=true)
