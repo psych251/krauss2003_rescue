@@ -157,17 +157,13 @@ Following the original study's protocol, the difference between such proportions
 
 ### Methods Addendum (Post Data Collection)
 
-You can comment this section out prior to final report with data collection.
-
 #### Actual Sample
-  Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+300 potential participants were pre-screened on Prolific, 100 of which participated in the experiment. Out of those 100 participants, 75 passed the exclusion criteria spelled out above. The average age of participants was 30.4 years. 45 participants identified as female, 54 as male, and 1 preferred not to disclose their gender identity. The participants lived in 78 different nations.
 
 #### Differences from pre-data collection methods plan
-  Any differences from what was described as the original plan, or “none”.
-
+None.
 
 ## Results
-
 
 ### Data preparation
 
@@ -185,13 +181,13 @@ library("dplyr")
 setwd("/Users/bendix/Desktop/krauss2003_rescue")
 getwd()
 
-### load data from Pilot B
-data <- read_survey("./data/pilotBdata_notanyonymized.csv")
+### load data
+data <- read_survey("./data/data_nonanon.csv")
 
 ### anonymize and tidy data
 
 tidy_data = data |>
-  select("Prolific ID question", Finished, "Duration (in seconds)", Q7, Q9, Q10, Q20, Q14, Q15, Q43) |> 
+  select(ResponseId, Finished, "Duration (in seconds)", Q7, Q9, Q10, Q20, Q14, Q15, Q43) |> 
   unite(switch, c(Q10, Q20), na.rm = T) |>
   mutate(switch = case_when(switch == 'switch to door 2' | switch == 'switch to the last remaining door' ~ TRUE,
                          TRUE ~ FALSE)) |> 
@@ -205,10 +201,6 @@ tidy_data = data |>
   mutate(control = case_when(is.na(wins_cases_if_stays) ~ TRUE,
                              TRUE ~ FALSE))
 
-# Export anonymized, tidy data
-
-# write.csv(tidy_data, "../data/pilotB_tidy.csv")
-
 # keep only rows corresponding to participants who finished the survey, took more than 60 seconds, weren't familiar with the scenario, and completed the questionnaire on their own
 
 relevant_tidy_data = tidy_data |>
@@ -217,16 +209,20 @@ relevant_tidy_data = tidy_data |>
   filter(already_familiar == F) |> 
   filter(already_knew_answer == F) |> 
   filter(own_answer == T) |> 
-  select("Prolific ID question", control, switch)
+  select(ResponseId, control, switch)
 
 # create a new column to record which participants provided correct justifications
 
 relevant_tidy_data = relevant_tidy_data |> 
   mutate(correct_justification = "")
 
+# sort switch column to simplify coding
+
+relevant_tidy_data = relevant_tidy_data[order(relevant_tidy_data$switch),]
+
 # export relevant_tidy_data to csv for coding
 
-# write.csv(relevant_tidy_data, "../data/pilotB_to_be_coded.csv")
+# write.csv(relevant_tidy_data, "../data/experiment_to_be_coded.csv")
 ```
 
 ### Results of control measures
@@ -238,7 +234,7 @@ How did people perform on any quality control checks or positive and negative co
 ```{r echo=TRUE}
 # after coding answers, load file
 
-relevant_tidy_data <- read_csv("../data/pilotB_coded.csv")
+relevant_tidy_data <- read_csv("../data/experiment_coded.csv")
 
 # generate contingency table that displays how many participants in the control and experimental condition provided a correct justification
 
@@ -254,15 +250,13 @@ proportions = data.frame(Condition=c("Control","Experimental"),
                                               (table[2,1]/
                                                  (table[2, 1] + table[1, 1])))) # the second proportion is that of correct justifications given in experimental condition
 
-proportions
-
 # perform Cohen's h test
 
 library("pwr")
 
 h <- ES.h(
-  proportions$Proportion[1], # the first proportion is that of correct justifications given in control condition
-  proportions$Proportion[2] # the second proportion is that of correct justifications given in experimental condition
+  proportions$Proportion[2], # the first proportion is that of correct justifications given in experimental condition
+  proportions$Proportion[1] # the second proportion is that of correct justifications given in control condition
 )
 h
 
@@ -270,6 +264,19 @@ h
 
 fisher_exact_test <- fisher.test(as.matrix(table))
 fisher_exact_test
+
+# generate contingency table that displays how many participants in the control and experimental condition indicated that the contestant should switch (i.e., gave a correct answer)
+
+table_switch <- with(
+  relevant_tidy_data,
+  table(switch, control))
+
+table_switch
+
+# Chi squared test for rate of switch choices
+
+chisq_test <- chisq.test(table_switch)
+chisq_test
 
 # Plots of results
 
@@ -281,14 +288,14 @@ plot <- ggplot(data=proportions, aes(x=Condition, y=(Proportion)*100)) +
   geom_bar(stat="identity") +
   scale_x_discrete(breaks=c("Control", "Experimental"),
                    labels=c("Control", "Experimental")) + ylim(0, 100) +
-  labs(title = "Pilot B results", x = "Condition", y = "Percentage correct (%)")
+  labs(title = "Replication results", x = "Condition", y = "Percentage correct (%)")
 
 plot
 
 # Plot from the original study
 
 proportions_original_study = data.frame(Condition=c("Control","Experimental"),
-                       Proportion=c(.3, .38))
+                       Proportion=c(.03, .38))
 
 plot_original_study <- ggplot(data=proportions_original_study, aes(x=Condition, y=(Proportion)*100)) +
   geom_bar(stat="identity") +
@@ -301,26 +308,13 @@ plot_original_study
 
 The analyses as specified in the analysis plan.  
 
-*Three-panel graph with original, 1st replication, and your replication is ideal here*
-
-<!-- STOP HERE FOR NOW -->
-
-### Exploratory analyses
-
-Any follow-up analyses desired (not required).  
-
 ## Discussion
 
-## Mini meta analysis
-Combining across the original paper, 1st replication, and 2nd replication, what is the aggregate effect size? 
-
-### Summary of Replication Attempt
-
-Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
+For the rate of correct answers (i.e., the participant indicated to switch), Krauss & Wang (2003) reported a Chi-Squared value of 14.529, p < .01. For the rate of correct justifications (i.e., the participant indicated to switch and provided a correct justification for this decision based on the criteria above), Krauss & Wang (2003) reported a p-value of .0001 (Fisher's exact test, one-tailed), and a Cohen's h value of .98 for effect size, indicating a large difference. In his replication study, Wilcox failed to replicate these findings as none of the participants in that study provided correct justifications. In the present replication study, for the rate of correct answers, we report a Chi-Squared value of 4.756, p = .0292. For the rate of correct justifications, we report a p-value of .04549 (Fisher's exact test, one-tailed), and a Cohen's h value of .536, indicating a moderate difference. *Thus, while we detected a smaller effect than Krauss & Wang (2003), we cannot conclude that their study has failed to replicate.*
 
 ### Commentary
 
-Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
+One of the main challenges faced by Wilcox's initial replication study was the low number of participants as well as the poor quality of responses. In the present replication study, we recruited more participants and the quality of responses was higher. This was possibly the result of recruiting Prolific workers as opposed to Mechanical Turk workers, as well as of clarifying the instructions and requiring participants to upload handwritten answers.
 
 ## Appendix A: Control Group Instructions
 
