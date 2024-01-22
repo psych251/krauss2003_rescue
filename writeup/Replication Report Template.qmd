@@ -326,7 +326,7 @@ One of the main challenges faced by Wilcox's initial replication study was the l
 
 The following instructions were used in the replication attempt:
 
-![Before you continue screen](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/beforeyoucontinuescreen.png?raw=true)
+![Before you continue screen](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/beforeyoucontinue.png?raw=true)
 
 ![Control group instructions](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/controlcondition.png?raw=true)
 
@@ -342,7 +342,7 @@ The following instructions were used in the replication attempt:
 
 The following instructions were used in the replication attempt:
 
-![Before you continue screen](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/beforeyoucontinuescreen.png?raw=true)
+![Before you continue screen](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/beforeyoucontinue.png?raw=true)
 
 ![Experimental group instructions 1](https://github.com/psych251/krauss2003_rescue/blob/main/writeup/img/experimentalcondition1.png?raw=true)
 
