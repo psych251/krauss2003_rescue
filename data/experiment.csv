@@ -1,101 +1,101 @@
-"","ResponseId","Finished","Duration (in seconds)","wins_cases_if_stays","wins_cases_if_switches","switch","already_familiar","already_knew_answer","own_answer","control"
-"1","R_3n19VK5E9o0W9MV",TRUE,335,"2","2",FALSE,FALSE,FALSE,TRUE,FALSE
-"2","R_31h26iFeC2bQf7u",TRUE,234,NA,NA,FALSE,TRUE,FALSE,TRUE,TRUE
-"3","R_1Isejl8od3Md5Xr",TRUE,374,NA,NA,FALSE,FALSE,FALSE,FALSE,TRUE
-"4","R_PA6uEP0rCOyPZu1",TRUE,478,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"5","R_24hHqKFP6lEiShm",TRUE,498,"2","1",TRUE,TRUE,FALSE,TRUE,FALSE
-"6","R_297chnFbnZteDhu",TRUE,552,NA,NA,FALSE,FALSE,FALSE,FALSE,TRUE
-"7","R_3QRDvH171AMc6Q6",TRUE,438,NA,NA,TRUE,FALSE,FALSE,TRUE,TRUE
-"8","R_2S1x7VUsyJJImfr",TRUE,549,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"9","R_1BWRYBowuRMjQMN",TRUE,462,"1","2",TRUE,TRUE,TRUE,FALSE,FALSE
-"10","R_BVSOuI7HjKyeq7T",TRUE,671,"1","1",TRUE,TRUE,FALSE,TRUE,FALSE
-"11","R_3dEAwZs0KkwQKPR",TRUE,442,NA,NA,FALSE,TRUE,FALSE,TRUE,TRUE
-"12","R_1erSjrSoVVINi3b",TRUE,767,NA,NA,TRUE,TRUE,FALSE,TRUE,TRUE
-"13","R_1Cq0Mb7cz5cdxto",TRUE,707,"1","1",FALSE,TRUE,FALSE,TRUE,FALSE
-"14","R_2zOwBri1SmIkpOO",TRUE,1221,"1","3",TRUE,FALSE,FALSE,TRUE,FALSE
-"15","R_1DuLtrL5RLS8dV0",TRUE,800,"1","1",FALSE,TRUE,FALSE,TRUE,FALSE
-"16","R_1qWXSQOFic8uj0h",TRUE,903,"1","1",FALSE,FALSE,FALSE,TRUE,FALSE
-"17","R_R4wAhOYhpNBXqkF",TRUE,464,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"18","R_xinMJKGpNf5M86Z",TRUE,1050,"1","1",FALSE,FALSE,FALSE,TRUE,FALSE
-"19","R_3fepKxYWv6qTqZd",TRUE,319,NA,NA,TRUE,FALSE,FALSE,TRUE,TRUE
-"20","R_2xP57IQFM2r2rif",TRUE,392,NA,NA,FALSE,TRUE,FALSE,TRUE,TRUE
-"21","R_2WS9I7SiHtkRxDi",TRUE,2429,"1","2",TRUE,FALSE,FALSE,TRUE,FALSE
-"22","R_3EbQTFh63jqRFi4",TRUE,1190,NA,NA,TRUE,FALSE,FALSE,TRUE,TRUE
-"23","R_2R92DFyrrPdByOE",TRUE,537,"1","1",FALSE,FALSE,FALSE,TRUE,FALSE
-"24","R_86SObFGZaqUTNC1",TRUE,638,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"25","R_1mIepH58WE3buFz",TRUE,2173,"0","1",TRUE,FALSE,FALSE,TRUE,FALSE
-"26","R_1gdTPn9YVo2A0E9",TRUE,760,"2","2",FALSE,FALSE,FALSE,TRUE,FALSE
-"27","R_1d0je9YWLzG69iB",TRUE,556,"1","2",FALSE,TRUE,FALSE,TRUE,FALSE
-"28","R_1im4WFWkXhUFcPQ",TRUE,453,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"29","R_ODozvgRnz7ydVHr",TRUE,508,"1","1",TRUE,TRUE,FALSE,TRUE,FALSE
-"30","R_wYJoTtgm9Mn3EWZ",TRUE,314,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"31","R_3PRYWMNL19sbH6Z",TRUE,438,"1","1",TRUE,FALSE,FALSE,TRUE,FALSE
-"32","R_DNuTmtgECkVKAbD",TRUE,453,NA,NA,TRUE,TRUE,TRUE,FALSE,TRUE
-"33","R_3sBKLNvdusSfkMd",TRUE,426,"1","1",FALSE,FALSE,FALSE,TRUE,FALSE
-"34","R_2CTdmifUz5xe9kc",TRUE,493,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"35","R_3dEzbcwMMkvUJhs",TRUE,476,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"36","R_2U3BnNLVoJXMRtV",TRUE,590,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"37","R_1GUhHYqbxHDErfy",TRUE,506,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"38","R_pgdm1askEf7Irol",TRUE,598,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"39","R_31tlZdypXmu4bVq",TRUE,573,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"40","R_3Jz07R1XA9QU7hp",TRUE,326,"1","1",FALSE,FALSE,FALSE,TRUE,FALSE
-"41","R_AGPqhQxDaNHnVMB",TRUE,706,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"42","R_12Pb5M2KFe2iEna",TRUE,712,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"43","R_7PbiUD08nxwLtwB",TRUE,624,"1/3","2/3",TRUE,FALSE,FALSE,TRUE,FALSE
-"44","R_1FDj0aVnGOlwGLp",TRUE,751,"One (if you ask him that he wants to open the door which he is thinking nothing’s behind)","Same here.",FALSE,FALSE,TRUE,TRUE,FALSE
-"45","R_2sc1G7EkrmJd4Uz",TRUE,836,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"46","R_RKYmlweF1MP7LcB",TRUE,965,"1","2",TRUE,FALSE,FALSE,TRUE,FALSE
-"47","R_bmaHAAzkR97H64V",TRUE,528,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"48","R_2c5VlfocV2ZTqmB",TRUE,903,"2","3",FALSE,FALSE,FALSE,TRUE,FALSE
-"49","R_2zC4WXt1wSD3mYq",TRUE,973,"1","2",TRUE,FALSE,FALSE,TRUE,FALSE
-"50","R_296vEeP2OakhwJn",TRUE,1002,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"51","R_sd24aAkXAI79XCV",TRUE,849,NA,NA,TRUE,TRUE,FALSE,TRUE,TRUE
-"52","R_2ygyn4yO80yfKVT",TRUE,1017,"One third","Its 50:50",TRUE,TRUE,TRUE,FALSE,FALSE
-"53","R_3iLpPAACQyLh1AC",TRUE,1072,"1","2",TRUE,TRUE,TRUE,TRUE,FALSE
-"54","R_XoavtjrVfz9bsZP",TRUE,716,"2","2",TRUE,FALSE,FALSE,TRUE,FALSE
-"55","R_3Gv155gMCo0iBP3",TRUE,970,NA,NA,TRUE,FALSE,FALSE,TRUE,TRUE
-"56","R_2xXzD0MzXBtfaka",TRUE,1265,NA,NA,TRUE,FALSE,FALSE,TRUE,TRUE
-"57","R_2WJAdY75o4c3pfq",TRUE,1079,"1,5","1,5",FALSE,FALSE,FALSE,TRUE,FALSE
-"58","R_2Cgh3qhDIGdtWC0",TRUE,1114,"1","2",FALSE,FALSE,FALSE,TRUE,FALSE
-"59","R_3iXoKksfTvJFCUr",TRUE,1161,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"60","R_1gUBGV9nxgm8VFC",TRUE,877,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"61","R_3P5NqSRlB6Nc5xT",TRUE,778,"1","2",FALSE,FALSE,FALSE,TRUE,FALSE
-"62","R_2ANAgtvoEuEE8ud",TRUE,1099,"1","2",TRUE,FALSE,FALSE,TRUE,FALSE
-"63","R_3sBVu5iYbRBoiYT",TRUE,1324,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"64","R_vpPaEaHbPYHQDtf",TRUE,1329,"1,5","1,5",FALSE,FALSE,FALSE,TRUE,FALSE
-"65","R_BQFaf10uuXXvDgJ",TRUE,1415,"0","3",TRUE,FALSE,FALSE,TRUE,FALSE
-"66","R_33sepEhbUe38Zyh",TRUE,1465,"2","1",FALSE,TRUE,TRUE,TRUE,FALSE
-"67","R_2VkX55z5m23cL6F",TRUE,1453,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"68","R_5mOwzIjxaiWfsBP",TRUE,881,"1","1",FALSE,FALSE,FALSE,TRUE,FALSE
-"69","R_Z3likiB5WFjVhZL",TRUE,1581,"1","2",TRUE,FALSE,FALSE,TRUE,FALSE
-"70","R_3ITadHmkr0kfIgj",TRUE,1207,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"71","R_3CZMqGloqQfKt0e",TRUE,760,"1","1",FALSE,FALSE,FALSE,TRUE,FALSE
-"72","R_2viznSlPOYS5ynn",TRUE,1814,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"73","R_3L5SguxwyqYNnwz",TRUE,353,"1","2",TRUE,TRUE,FALSE,TRUE,FALSE
-"74","R_V2WSXEP16rf7I65",TRUE,1274,"1","1",TRUE,FALSE,FALSE,TRUE,FALSE
-"75","R_3g7c9OnH04t7Zy8",TRUE,559,"1","2",TRUE,TRUE,TRUE,FALSE,FALSE
-"76","R_1Qz7N0ysrQvloTH",TRUE,763,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"77","R_2VPZlDDuoN76eoI",TRUE,319,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"78","R_1Q5idZRqFfLcksH",TRUE,3409,"33.3%","66.6%",TRUE,TRUE,TRUE,TRUE,FALSE
-"79","R_24q840BNabs3nFt",TRUE,786,"If the contestant sticks with the first choice (door 1), they will win the suitcase full of money in 1 out of 3 cases.","If the contestant switches to the last remaining door (not door 1), they will win the suitcase full of money in 2 out of 3 cases.",TRUE,FALSE,FALSE,TRUE,FALSE
-"80","R_3mZTiw0l1ZlRwpn",TRUE,755,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"81","R_3jU05s5ab8k9nKJ",TRUE,686,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"82","R_DNShcOOn2zRHbEd",TRUE,1140,"1","3",FALSE,FALSE,FALSE,TRUE,FALSE
-"83","R_3fx7GizLUDdWgq7",TRUE,385,NA,NA,FALSE,TRUE,FALSE,TRUE,TRUE
-"84","R_vdbOdfg0jIue3YZ",TRUE,1213,"1","1",FALSE,FALSE,FALSE,TRUE,FALSE
-"85","R_3KE1Pdng5LZklPL",TRUE,2831,"one","30000",TRUE,FALSE,FALSE,TRUE,FALSE
-"86","R_V56sxOvnSwJUBbP",TRUE,929,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"87","R_1Cw37YxVAJmhbjw",TRUE,3707,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"88","R_8iT6VsGQ7LRUNu9",TRUE,1078,"1","2",TRUE,TRUE,TRUE,TRUE,FALSE
-"89","R_2ZVwb7vFimZZmIb",TRUE,1105,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"90","R_2qEgmWXLMAis6pE",TRUE,384,"1","1",FALSE,FALSE,FALSE,TRUE,FALSE
-"91","R_w4wyFlJedqtuGJj",TRUE,779,"1","1",FALSE,FALSE,FALSE,TRUE,FALSE
-"92","R_2wBRb2BNmeRLP1W",TRUE,1835,"in two out of 3 cases he will win","in two out of 3 cases he will lose",FALSE,FALSE,FALSE,TRUE,FALSE
-"93","R_3lKSLab2g0dli3G",TRUE,1375,NA,NA,TRUE,FALSE,FALSE,TRUE,TRUE
-"94","R_322CGvrgcsBZvj4",TRUE,319,"1","1",FALSE,FALSE,FALSE,TRUE,FALSE
-"95","R_OkDEGYixIguCRep",TRUE,835,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"96","R_3eaVmfJ7ocHiUuN",TRUE,1004,"1,5","1,5",FALSE,FALSE,FALSE,TRUE,FALSE
-"97","R_1Ny6rjl4dgJN73n",TRUE,582,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"98","R_1ClGLxJkPbBM0bn",TRUE,436,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"99","R_2fu4taUpLQR3voZ",TRUE,603,NA,NA,FALSE,FALSE,FALSE,TRUE,TRUE
-"100","R_piTSflfbILle1VL",TRUE,1080,"1","1",FALSE,FALSE,FALSE,FALSE,FALSE
+"participant","ResponseId","Finished","Duration (in seconds)","Q7","Q9","Q10","Q20","Q14","Q15","Q43"
+"1","R_3n19VK5E9o0W9MV",TRUE,335,"2","2","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"2","R_31h26iFeC2bQf7u",TRUE,234,NA,NA,NA,"stick with your first choice (door 1)","I was familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"3","R_1Isejl8od3Md5Xr",TRUE,374,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I did not arrive at the answer on my own"
+"4","R_PA6uEP0rCOyPZu1",TRUE,478,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"5","R_24hHqKFP6lEiShm",TRUE,498,"2","1","switch to the last remaining door",NA,"I was familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"6","R_297chnFbnZteDhu",TRUE,552,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I did not arrive at the answer on my own"
+"7","R_3QRDvH171AMc6Q6",TRUE,438,NA,NA,NA,"switch to door 2","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"8","R_2S1x7VUsyJJImfr",TRUE,549,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"9","R_1BWRYBowuRMjQMN",TRUE,462,"1","2","switch to the last remaining door",NA,"I was familiar with this game","I already knew what the correct answer should be","I did not arrive at the answer on my own"
+"10","R_BVSOuI7HjKyeq7T",TRUE,671,"1","1","switch to the last remaining door",NA,"I was familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"11","R_3dEAwZs0KkwQKPR",TRUE,442,NA,NA,NA,"stick with your first choice (door 1)","I was familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"12","R_1erSjrSoVVINi3b",TRUE,767,NA,NA,NA,"switch to door 2","I was familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"13","R_1Cq0Mb7cz5cdxto",TRUE,707,"1","1","stick with the first choice (door 1)",NA,"I was familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"14","R_2zOwBri1SmIkpOO",TRUE,1221,"1","3","switch to the last remaining door",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"15","R_1DuLtrL5RLS8dV0",TRUE,800,"1","1","stick with the first choice (door 1)",NA,"I was familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"16","R_1qWXSQOFic8uj0h",TRUE,903,"1","1","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"17","R_R4wAhOYhpNBXqkF",TRUE,464,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"18","R_xinMJKGpNf5M86Z",TRUE,1050,"1","1","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"19","R_3fepKxYWv6qTqZd",TRUE,319,NA,NA,NA,"switch to door 2","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"20","R_2xP57IQFM2r2rif",TRUE,392,NA,NA,NA,"stick with your first choice (door 1)","I was familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"21","R_2WS9I7SiHtkRxDi",TRUE,2429,"1","2","switch to the last remaining door",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"22","R_3EbQTFh63jqRFi4",TRUE,1190,NA,NA,NA,"switch to door 2","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"23","R_2R92DFyrrPdByOE",TRUE,537,"1","1","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"24","R_86SObFGZaqUTNC1",TRUE,638,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"25","R_1mIepH58WE3buFz",TRUE,2173,"0","1","switch to the last remaining door",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"26","R_1gdTPn9YVo2A0E9",TRUE,760,"2","2","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"27","R_1d0je9YWLzG69iB",TRUE,556,"1","2","stick with the first choice (door 1)",NA,"I was familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"28","R_1im4WFWkXhUFcPQ",TRUE,453,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"29","R_ODozvgRnz7ydVHr",TRUE,508,"1","1","switch to the last remaining door",NA,"I was familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"30","R_wYJoTtgm9Mn3EWZ",TRUE,314,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"31","R_3PRYWMNL19sbH6Z",TRUE,438,"1","1","switch to the last remaining door",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"32","R_DNuTmtgECkVKAbD",TRUE,453,NA,NA,NA,"switch to door 2","I was familiar with this game","I already knew what the correct answer should be","I did not arrive at the answer on my own"
+"33","R_3sBKLNvdusSfkMd",TRUE,426,"1","1","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"34","R_2CTdmifUz5xe9kc",TRUE,493,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"35","R_3dEzbcwMMkvUJhs",TRUE,476,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"36","R_2U3BnNLVoJXMRtV",TRUE,590,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"37","R_1GUhHYqbxHDErfy",TRUE,506,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"38","R_pgdm1askEf7Irol",TRUE,598,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"39","R_31tlZdypXmu4bVq",TRUE,573,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"40","R_3Jz07R1XA9QU7hp",TRUE,326,"1","1","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"41","R_AGPqhQxDaNHnVMB",TRUE,706,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"42","R_12Pb5M2KFe2iEna",TRUE,712,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"43","R_7PbiUD08nxwLtwB",TRUE,624,"1/3","2/3","switch to the last remaining door",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"44","R_1FDj0aVnGOlwGLp",TRUE,751,"One (if you ask him that he wants to open the door which he is thinking nothing’s behind)","Same here.","stick with the first choice (door 1)",NA,"I was not familiar with this game","I already knew what the correct answer should be","I arrived at the answer on my own"
+"45","R_2sc1G7EkrmJd4Uz",TRUE,836,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"46","R_RKYmlweF1MP7LcB",TRUE,965,"1","2","switch to the last remaining door",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"47","R_bmaHAAzkR97H64V",TRUE,528,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"48","R_2c5VlfocV2ZTqmB",TRUE,903,"2","3","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"49","R_2zC4WXt1wSD3mYq",TRUE,973,"1","2","switch to the last remaining door",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"50","R_296vEeP2OakhwJn",TRUE,1002,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"51","R_sd24aAkXAI79XCV",TRUE,849,NA,NA,NA,"switch to door 2","I was familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"52","R_2ygyn4yO80yfKVT",TRUE,1017,"One third","Its 50:50","switch to the last remaining door",NA,"I was familiar with this game","I already knew what the correct answer should be","I did not arrive at the answer on my own"
+"53","R_3iLpPAACQyLh1AC",TRUE,1072,"1","2","switch to the last remaining door",NA,"I was familiar with this game","I already knew what the correct answer should be","I arrived at the answer on my own"
+"54","R_XoavtjrVfz9bsZP",TRUE,716,"2","2","switch to the last remaining door",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"55","R_3Gv155gMCo0iBP3",TRUE,970,NA,NA,NA,"switch to door 2","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"56","R_2xXzD0MzXBtfaka",TRUE,1265,NA,NA,NA,"switch to door 2","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"57","R_2WJAdY75o4c3pfq",TRUE,1079,"1,5","1,5","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"58","R_2Cgh3qhDIGdtWC0",TRUE,1114,"1","2","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"59","R_3iXoKksfTvJFCUr",TRUE,1161,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"60","R_1gUBGV9nxgm8VFC",TRUE,877,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"61","R_3P5NqSRlB6Nc5xT",TRUE,778,"1","2","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"62","R_2ANAgtvoEuEE8ud",TRUE,1099,"1","2","switch to the last remaining door",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"63","R_3sBVu5iYbRBoiYT",TRUE,1324,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"64","R_vpPaEaHbPYHQDtf",TRUE,1329,"1,5","1,5","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"65","R_BQFaf10uuXXvDgJ",TRUE,1415,"0","3","switch to the last remaining door",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"66","R_33sepEhbUe38Zyh",TRUE,1465,"2","1","stick with the first choice (door 1)",NA,"I was familiar with this game","I already knew what the correct answer should be","I arrived at the answer on my own"
+"67","R_2VkX55z5m23cL6F",TRUE,1453,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"68","R_5mOwzIjxaiWfsBP",TRUE,881,"1","1","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"69","R_Z3likiB5WFjVhZL",TRUE,1581,"1","2","switch to the last remaining door",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"70","R_3ITadHmkr0kfIgj",TRUE,1207,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"71","R_3CZMqGloqQfKt0e",TRUE,760,"1","1","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"72","R_2viznSlPOYS5ynn",TRUE,1814,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"73","R_3L5SguxwyqYNnwz",TRUE,353,"1","2","switch to the last remaining door",NA,"I was familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"74","R_V2WSXEP16rf7I65",TRUE,1274,"1","1","switch to the last remaining door",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"75","R_3g7c9OnH04t7Zy8",TRUE,559,"1","2","switch to the last remaining door",NA,"I was familiar with this game","I already knew what the correct answer should be","I did not arrive at the answer on my own"
+"76","R_1Qz7N0ysrQvloTH",TRUE,763,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"77","R_2VPZlDDuoN76eoI",TRUE,319,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"78","R_1Q5idZRqFfLcksH",TRUE,3409,"33.3%","66.6%","switch to the last remaining door",NA,"I was familiar with this game","I already knew what the correct answer should be","I arrived at the answer on my own"
+"79","R_24q840BNabs3nFt",TRUE,786,"If the contestant sticks with the first choice (door 1), they will win the suitcase full of money in 1 out of 3 cases.","If the contestant switches to the last remaining door (not door 1), they will win the suitcase full of money in 2 out of 3 cases.","switch to the last remaining door",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"80","R_3mZTiw0l1ZlRwpn",TRUE,755,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"81","R_3jU05s5ab8k9nKJ",TRUE,686,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"82","R_DNShcOOn2zRHbEd",TRUE,1140,"1","3","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"83","R_3fx7GizLUDdWgq7",TRUE,385,NA,NA,NA,"stick with your first choice (door 1)","I was familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"84","R_vdbOdfg0jIue3YZ",TRUE,1213,"1","1","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"85","R_3KE1Pdng5LZklPL",TRUE,2831,"one","30000","switch to the last remaining door",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"86","R_V56sxOvnSwJUBbP",TRUE,929,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"87","R_1Cw37YxVAJmhbjw",TRUE,3707,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"88","R_8iT6VsGQ7LRUNu9",TRUE,1078,"1","2","switch to the last remaining door",NA,"I was familiar with this game","I already knew what the correct answer should be","I arrived at the answer on my own"
+"89","R_2ZVwb7vFimZZmIb",TRUE,1105,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"90","R_2qEgmWXLMAis6pE",TRUE,384,"1","1","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"91","R_w4wyFlJedqtuGJj",TRUE,779,"1","1","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"92","R_2wBRb2BNmeRLP1W",TRUE,1835,"in two out of 3 cases he will win","in two out of 3 cases he will lose","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"93","R_3lKSLab2g0dli3G",TRUE,1375,NA,NA,NA,"switch to door 2","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"94","R_322CGvrgcsBZvj4",TRUE,319,"1","1","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"95","R_OkDEGYixIguCRep",TRUE,835,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"96","R_3eaVmfJ7ocHiUuN",TRUE,1004,"1,5","1,5","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"97","R_1Ny6rjl4dgJN73n",TRUE,582,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"98","R_1ClGLxJkPbBM0bn",TRUE,436,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"99","R_2fu4taUpLQR3voZ",TRUE,603,NA,NA,NA,"stick with your first choice (door 1)","I was not familiar with this game","I did not already know what the correct answer should be","I arrived at the answer on my own"
+"100","R_piTSflfbILle1VL",TRUE,1080,"1","1","stick with the first choice (door 1)",NA,"I was not familiar with this game","I did not already know what the correct answer should be","I did not arrive at the answer on my own"

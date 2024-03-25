@@ -6,7 +6,7 @@ library("plyr")
 
 ### load data from Pilot A
 
-data_pilot_a <- read_survey("/Users/bendix/Desktop/krauss2003_rescue/data/pilotA.csv")
+data_pilot_a <- read_survey("/data/pilotA.csv")
 
 ### tidy data
 
